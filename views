@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Online Tools Hub — QR Generator, Image Compressor & More</title>
+  <meta name="description" content="Free Online Tools Hub offers a powerful QR code generator with scan tracking, image compressor, and more. No sign-up needed. Fast, free, and private." />
+  <meta name="keywords" content="free online tools, QR code generator, image compressor, online utilities" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourdomain.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free Online Tools Hub" />
+  <meta property="og:description" content="Free QR code generator with tracking, image compressor, and more online tools." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navbar ── -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo">Tools<span>Hub</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-nav" id="main-nav">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/qr-code-generator">QR Generator</a></li>
+        <li><a href="/image-compressor">Image Compressor</a></li>
+        <li><a href="/qr-code-generator" class="nav-cta">Try Now →</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ── Hero ── -->
+    <section class="hero">
+      <div class="container" style="position:relative">
+        <div class="dot-grid"></div>
+        <div class="hero-tag">✦ 100% Free · No Sign-up Required</div>
+        <h1>Free <em>Online Tools</em><br/>Built for Everyone</h1>
+        <p class="hero-sub">
+          Generate QR codes with real-time scan analytics, compress images without losing quality,
+          and more — all in your browser. No account. No fees. Just tools that work.
+        </p>
+        <div class="hero-actions">
+          <a href="/qr-code-generator" class="btn btn-primary btn-lg">
+            <span>⬡</span> QR Code Generator
+          </a>
+          <a href="/image-compressor" class="btn btn-secondary btn-lg">
+            <span>◈</span> Image Compressor
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Tool Cards ── -->
+    <section style="padding: 0 0 72px">
+      <div class="container">
+        <div class="tools-grid">
+
+          <div class="tool-card animate-in">
+            <div class="tool-icon">⬡</div>
+            <h3>QR Code Generator</h3>
+            <p>
+              Create trackable QR codes in seconds. Every scan is logged — see how many people
+              scanned your code, when, and from where. Perfect for marketing and print campaigns.
+            </p>
+            <a href="/qr-code-generator" class="btn btn-primary">Generate QR Code →</a>
+          </div>
+
+          <div class="tool-card animate-in" style="animation-delay:0.1s">
+            <div class="tool-icon" style="background:#e8f0fd">◈</div>
+            <h3>Image Compressor</h3>
+            <p>
+              Reduce image file sizes by up to 90% with our in-browser compressor. No file uploads
+              to a server — everything happens locally. Supports JPEG, PNG, and WebP.
+            </p>
+            <a href="/image-compressor" class="btn btn-secondary">Compress Image →</a>
+          </div>
+
+          <div class="tool-card animate-in" style="animation-delay:0.2s;opacity:0.6;pointer-events:none">
+            <div class="tool-icon" style="background:#f0f5e8">◻</div>
+            <h3>More Tools Coming</h3>
+            <p>
+              We're building a full suite of free online utilities — PDF tools, URL shortener,
+              color picker, and many more. Stay tuned for updates.
+            </p>
+            <span class="btn btn-secondary" style="opacity:0.5;cursor:default">Coming Soon</span>
+          </div>
+
+        </div>
+
+        <!-- Stats Row -->
+        <div style="display:flex;gap:32px;flex-wrap:wrap;padding:32px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg)">
+          <div style="flex:1;min-width:140px;text-align:center">
+            <div style="font-family:var(--font-display);font-size:2.2rem;font-weight:900;color:var(--accent)">Free</div>
+            <div style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-3);margin-top:4px">Always & Forever</div>
+          </div>
+          <div style="flex:1;min-width:140px;text-align:center;border-left:1px solid var(--border);border-right:1px solid var(--border)">
+            <div style="font-family:var(--font-display);font-size:2.2rem;font-weight:900;color:var(--accent)">0</div>
+            <div style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-3);margin-top:4px">Sign-ups Required</div>
+          </div>
+          <div style="flex:1;min-width:140px;text-align:center">
+            <div style="font-family:var(--font-display);font-size:2.2rem;font-weight:900;color:var(--accent)">∞</div>
+            <div style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-3);margin-top:4px">Tools to Come</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SEO Content ── -->
+    <section class="seo-section">
+      <div class="container">
+        <h2>Your Free Online Toolkit</h2>
+        <p>
+          In a world cluttered with overpriced SaaS tools and subscription walls, <strong>Free Online Tools Hub</strong>
+          offers a refreshing alternative. We believe essential digital utilities should be accessible to everyone —
+          students, small business owners, freelancers, and developers alike. No hidden fees, no forced sign-ups,
+          no data harvesting. Just clean, fast tools that respect your time and privacy.
+        </p>
+        <p>
+          Our platform is built with performance in mind. Tools like our image compressor run entirely in your
+          browser using the Canvas API, meaning your files never leave your device. The QR code generator stores
+          minimal data — just the URL you want to encode — and gives you real-time scan analytics so you can
+          measure engagement without needing a complex marketing platform.
+        </p>
+
+        <div class="seo-grid">
+          <div class="seo-feature">
+            <div class="icon">🔒</div>
+            <h4>Privacy First</h4>
+            <p>Image compression happens entirely in your browser. Your files are never uploaded to our servers.</p>
+          </div>
+          <div class="seo-feature">
+            <div class="icon">⚡</div>
+            <h4>Blazing Fast</h4>
+            <p>No heavy frameworks, no bloat. Our tools load in under a second and work on any device.</p>
+          </div>
+          <div class="seo-feature">
+            <div class="icon">📊</div>
+            <h4>Real Analytics</h4>
+            <p>QR codes come with built-in scan tracking — see exactly how many times your code was scanned.</p>
+          </div>
+          <div class="seo-feature">
+            <div class="icon">🎯</div>
+            <h4>No Sign-up</h4>
+            <p>Jump straight in. No account, no email, no password. Use the tools and get on with your day.</p>
+          </div>
+        </div>
+
+        <h3>Why Choose Free Online Tools Hub?</h3>
+        <p>
+          Many online tool sites bombard users with ads, pop-ups, and upsell prompts. We've taken a different
+          approach: a clean, distraction-free interface that puts the tool front and center. Whether you're
+          generating a QR code for a restaurant menu, a business card, or a product label, or compressing images
+          for your website to improve load speeds and SEO — our tools are designed to get the job done with
+          zero friction.
+        </p>
+        <p>
+          Our QR code generator doesn't just create static codes. Each QR code routes through our tracking system,
+          logging every scan with a timestamp. This gives you genuine insight into when and how often your QR codes
+          are being used — data that's typically locked behind expensive marketing platforms.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Tools<span>Hub</span></div>
+        <p>Free online tools for everyone. No sign-up, no fees, no nonsense. Built to make digital tasks simpler.</p>
+      </div>
+      <div>
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/qr-code-generator">QR Code Generator</a></li>
+          <li><a href="/image-compressor">Image Compressor</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Site</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Free Online Tools Hub. All rights reserved.</span>
+      <span>Built with ❤️ — Free forever</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('main-nav').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
